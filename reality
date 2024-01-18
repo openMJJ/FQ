@@ -28,26 +28,19 @@ proxies:
   - {name: v.ps|软银永久, server: 193.32.149.149, port: 59728, type: vless, uuid: 0e6ce07d-29ba-459f-ffaa-9cfd9caf1082, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM}, servername: www.lovelive-anime.jp, client-fingerprint: chrome, network: tcp}
   - {name: SL-ARM|XCcX.love@xray.com, server: 152.70.244.133, port: 56332, type: vless, uuid: 460dd130-aae3-4325-e1df-5e445623b0e1, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA}, servername: addons.mozilla.org, client-fingerprint: chrome, network: tcp}
   - {name: cun|fD0Z.love@xray.com, server: 104.36.86.207, port: 58711, type: vless, uuid: c170e8af-9c19-4ec2-cccd-7fb926dbd151, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA}, servername: addons.mozilla.org, client-fingerprint: chrome, network: tcp}
-  - {name: 🇩🇪 DE法兰|SFdo.love@xray.com, server: 130.61.176.60, port: 40754, type: vless, uuid: 7267460a-febb-48b1-9bbd-2224c54a47b4, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA}, servername: www.lovelive-anime.jp, client-fingerprint: chrome, network: tcp}
   - {name: V.PS永久 hysteria2, type: hysteria2, server: 193.32.149.24, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: cd55f4bb-7afc-410c-a061-508e3933e8a7, obfs: salamander, obfs-password: cd55f4bb-7afc-410c-a061-508e3933e8a7, skip-cert-verify: true}
-  - {name: waphk hysteria2, type: hysteria2, server: waphk.openface.cc, port: 4446, up: "200 Mbps", down: "1000 Mbps", password: 56eb8734-7787-49c0-a89f-e57d40567809, obfs: salamander, obfs-password: 56eb8734-7787-49c0-a89f-e57d40567809, skip-cert-verify: true}
+  - {name: waphk hysteria2, type: hysteria2, server: 2400:8a20:112:1::369, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: df37f617-9b40-4e25-981d-f1ab114619cb, obfs: salamander, obfs-password: df37f617-9b40-4e25-981d-f1ab114619cb, skip-cert-verify: true}
   - {name: crun hysteria2, type: hysteria2, server: 104.36.86.207, port: 50001, up: "200 Mbps", down: "1000 Mbps", password: a102fbd9-05a6-4d02-b0c2-bb0580c54b2f, obfs: salamander, obfs-password: a102fbd9-05a6-4d02-b0c2-bb0580c54b2f, skip-cert-verify: true}
-  - {name: 🇩🇪 DE法国 hysteria2,type: hysteria2, server: 130.61.176.60, port: 55555, up: "200 Mbps", down: "1000 Mbps", password: ddba508c-efce-4ab3-8bae-e9284d4296f1, obfs: salamander, obfs-password: ddba508c-efce-4ab3-8bae-e9284d4296f1, skip-cert-verify: true}
   - {name: 🇰🇷 首尔 hysteria2,  type: hysteria2, server: 152.70.244.133, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: 00673b5e-0c57-4f5f-ae7a-e01de89b762b, obfs: salamander, obfs-password: 00673b5e-0c57-4f5f-ae7a-e01de89b762b, skip-cert-verify: true}
-proxy-groups:
-  - name: 🔰 节点选择
-    type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
       - v.ps|软银永久
       - SL-ARM|XCcX.love@xray.com
       - cun|fD0Z.love@xray.com
-      - 🇩🇪 DE法兰|SFdo.love@xray.com
       - V.PS永久 hysteria2
       - waphk hysteria2
       - crun hysteria2
-      - 🇩🇪 DE法国 hysteria2
       - 🇰🇷 首尔 hysteria2
   - name: ♻️ 自动选择
     type: url-test
@@ -57,11 +50,9 @@ proxy-groups:
       - v.ps|软银永久
       - SL-ARM|XCcX.love@xray.com
       - cun|fD0Z.love@xray.com
-      - 🇩🇪 DE法兰|SFdo.love@xray.com
       - V.PS永久 hysteria2
       - waphk hysteria2
       - crun hysteria2
-      - 🇩🇪 DE法国 hysteria2
       - 🇰🇷 首尔 hysteria2
   - name: 🎥 NETFLIX
     type: select
@@ -72,11 +63,9 @@ proxy-groups:
       - v.ps|软银永久
       - SL-ARM|XCcX.love@xray.com
       - cun|fD0Z.love@xray.com
-      - 🇩🇪 DE法兰|SFdo.love@xray.com
       - V.PS永久 hysteria2
       - waphk hysteria2
       - crun hysteria2
-      - 🇩🇪 DE法国 hysteria2
       - 🇰🇷 首尔 hysteria2
   - name: ⛔️ 广告拦截
     type: select
@@ -99,11 +88,9 @@ proxy-groups:
       - v.ps|软银永久
       - SL-ARM|XCcX.love@xray.com
       - cun|fD0Z.love@xray.com
-      - 🇩🇪 DE法兰|SFdo.love@xray.com
       - V.PS永久 hysteria2
       - waphk hysteria2
       - crun hysteria2
-      - 🇩🇪 DE法国 hysteria2
       - 🇰🇷 首尔 hysteria2
   - name: 🌏 国内媒体
     type: select
@@ -119,11 +106,9 @@ proxy-groups:
       - v.ps|软银永久
       - SL-ARM|XCcX.love@xray.com
       - cun|fD0Z.love@xray.com
-      - 🇩🇪 DE法兰|SFdo.love@xray.com
       - V.PS永久 hysteria2
       - waphk hysteria2
       - crun hysteria2
-      - 🇩🇪 DE法国 hysteria2
       - 🇰🇷 首尔 hysteria2
   - name: 📲 电报信息
     type: select
@@ -133,11 +118,9 @@ proxy-groups:
       - v.ps|软银永久
       - SL-ARM|XCcX.love@xray.com
       - cun|fD0Z.love@xray.com
-      - 🇩🇪 DE法兰|SFdo.love@xray.com
       - V.PS永久 hysteria2
       - waphk hysteria2
       - crun hysteria2
-      - 🇩🇪 DE法国 hysteria2
       - 🇰🇷 首尔 hysteria2
   - name: 🍎 苹果服务
     type: select
@@ -148,11 +131,9 @@ proxy-groups:
       - v.ps|软银永久
       - SL-ARM|XCcX.love@xray.com
       - cun|fD0Z.love@xray.com
-      - 🇩🇪 DE法兰|SFdo.love@xray.com
       - V.PS永久 hysteria2
       - waphk hysteria2
       - crun hysteria2
-      - 🇩🇪 DE法国 hysteria2
       - 🇰🇷 首尔 hysteria2
   - name: 🎯 全球直连
     type: select
@@ -172,11 +153,9 @@ proxy-groups:
       - v.ps|软银永久
       - SL-ARM|XCcX.love@xray.com
       - cun|fD0Z.love@xray.com
-      - 🇩🇪 DE法兰|SFdo.love@xray.com
       - V.PS永久 hysteria2
       - waphk hysteria2
       - crun hysteria2
-      - 🇩🇪 DE法国 hysteria2
       - 🇰🇷 首尔 hysteria2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
