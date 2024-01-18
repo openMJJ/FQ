@@ -31,7 +31,10 @@ proxies:
   - {name: V.PS永久 hysteria2, type: hysteria2, server: 193.32.149.24, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: cd55f4bb-7afc-410c-a061-508e3933e8a7, obfs: salamander, obfs-password: cd55f4bb-7afc-410c-a061-508e3933e8a7, skip-cert-verify: true}
   - {name: waphk hysteria2, type: hysteria2, server: 2400:8a20:112:1::369, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: df37f617-9b40-4e25-981d-f1ab114619cb, obfs: salamander, obfs-password: df37f617-9b40-4e25-981d-f1ab114619cb, skip-cert-verify: true}
   - {name: crun hysteria2, type: hysteria2, server: 104.36.86.207, port: 50001, up: "200 Mbps", down: "1000 Mbps", password: a102fbd9-05a6-4d02-b0c2-bb0580c54b2f, obfs: salamander, obfs-password: a102fbd9-05a6-4d02-b0c2-bb0580c54b2f, skip-cert-verify: true}
-  - {name: 🇰🇷 首尔 hysteria2,  type: hysteria2, server: 152.70.244.133, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: 00673b5e-0c57-4f5f-ae7a-e01de89b762b, obfs: salamander, obfs-password: 00673b5e-0c57-4f5f-ae7a-e01de89b762b, skip-cert-verify: true}
+  - {name: 🇰🇷 首尔 hysteria2, type: hysteria2, server: 152.70.244.133, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: 00673b5e-0c57-4f5f-ae7a-e01de89b762b, obfs: salamander, obfs-password: 00673b5e-0c57-4f5f-ae7a-e01de89b762b, skip-cert-verify: true}
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
@@ -9972,4 +9975,3 @@ rules:
   - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
-
