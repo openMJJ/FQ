@@ -30,6 +30,7 @@ proxies:
   - {name: waphk hysteria2, type: hysteria2, server: 2400:8a20:112:1::369, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: df37f617-9b40-4e25-981d-f1ab114619cb, obfs: salamander, obfs-password: df37f617-9b40-4e25-981d-f1ab114619cb, skip-cert-verify: true}
   - {name: crun hysteria2, type: hysteria2, server: 104.36.86.207, port: 50001, up: "200 Mbps", down: "1000 Mbps", password: a102fbd9-05a6-4d02-b0c2-bb0580c54b2f, obfs: salamander, obfs-password: a102fbd9-05a6-4d02-b0c2-bb0580c54b2f, skip-cert-verify: true}
   - {name: 🇰🇷 首尔 hysteria2, type: hysteria2, server: 152.70.244.133, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: 00673b5e-0c57-4f5f-ae7a-e01de89b762b, obfs: salamander, obfs-password: 00673b5e-0c57-4f5f-ae7a-e01de89b762b, skip-cert-verify: true}
+  - {name: "LIGA hysteria2", type: hysteria2, server: 103.247.19.134, port: 45644, up: "200 Mbps", down: "1000 Mbps", password: e16e01be-0c37-4ded-b823-b93b6a3eaec0, obfs: salamander, obfs-password: e16e01be-0c37-4ded-b823-b93b6a3eaec0, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -43,6 +44,7 @@ proxy-groups:
       - waphk hysteria2
       - crun hysteria2
       - 🇰🇷 首尔 hysteria2
+      - LIGA hysteria2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -93,6 +95,7 @@ proxy-groups:
       - waphk hysteria2
       - crun hysteria2
       - 🇰🇷 首尔 hysteria2
+      - LIGA hysteria2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -158,6 +161,7 @@ proxy-groups:
       - waphk hysteria2
       - crun hysteria2
       - 🇰🇷 首尔 hysteria2
+      - LIGA hysteria2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
