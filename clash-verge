@@ -2,12 +2,19 @@ vless://0e6ce07d-29ba-459f-ffaa-9cfd9caf1082@193.32.149.149:59728?encryption=non
 vless://460dd130-aae3-4325-e1df-5e445623b0e1@152.70.244.133:56332?encryption=none&flow=xtls-rprx-vision&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA&type=tcp&headerType=none#SL-ARM%7CXCcX.love%40xray.com
 vless://c170e8af-9c19-4ec2-cccd-7fb926dbd151@104.36.86.207:58711?encryption=none&flow=xtls-rprx-vision&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA&type=tcp&headerType=none#cun%7CfD0Z.love%40xray.com
 hy2://cd55f4bb-7afc-410c-a061-508e3933e8a7@193.32.149.24:44444?obfs=salamander&obfs-password=cd55f4bb-7afc-410c-a061-508e3933e8a7&insecure=1#V.PS永久%20hysteria2
-hy2://56eb8734-7787-49c0-a89f-e57d40567809@achk.cloudflarest.link:4446?obfs=salamander&obfs-password=56eb8734-7787-49c0-a89f-e57d40567809&insecure=1#waphk%20hysteria2
 hy2://a102fbd9-05a6-4d02-b0c2-bb0580c54b2f@104.36.86.207:50001?obfs=salamander&obfs-password=a102fbd9-05a6-4d02-b0c2-bb0580c54b2f&insecure=1#crun%20hysteria2
 hy2://00673b5e-0c57-4f5f-ae7a-e01de89b762b@152.70.244.133:44444?obfs=salamander&obfs-password=00673b5e-0c57-4f5f-ae7a-e01de89b762b&insecure=1#首尔%20hysteria2
 hy2://b8e5a63e-e311-4479-b810-37d5bf042b16@156.251.183.164:45645?obfs=salamander&obfs-password=b8e5a63e-e311-4479-b810-37d5bf042b16&insecure=1#BESTVM-2T%20hysteria2
 tuic://b8e5a63e-e311-4479-b810-37d5bf042b16:b8e5a63e-e311-4479-b810-37d5bf042b16@156.251.183.164:45646?congestion_control=bbr&alpn=h3&udp_relay_mode=native&allow_insecure=1&disable_sni=1#BESTVM-2T%20tuic
 vless://b8e5a63e-e311-4479-b810-37d5bf042b16@156.251.183.164:45644?security=reality&sni=addons.mozilla.org&fp=chrome&pbk=VldJ3NJNAHd3wrZ8GbGEMdPXw9C75C96trF1qk2o6Qo&type=tcp&encryption=none#BESTVM-2T%20xtls-reality
+hy2://e5d22589-6624-46b0-9f94-30984ff8895b@152.70.244.133:45645?obfs=salamander&obfs-password=e5d22589-6624-46b0-9f94-30984ff8895b&insecure=1#SL-ARM%20hysteria2
+tuic://e5d22589-6624-46b0-9f94-30984ff8895b:e5d22589-6624-46b0-9f94-30984ff8895b@152.70.244.133:45646?congestion_control=bbr&alpn=h3&udp_relay_mode=native&allow_insecure=1&disable_sni=1#SL-ARM%20tuic
+vless://e5d22589-6624-46b0-9f94-30984ff8895b@152.70.244.133:45644?security=reality&sni=addons.mozilla.org&fp=chrome&pbk=ALaKpA7hT0GsKrJlKzoLdPUNDEqyreIs5OhMrfgshVY&type=tcp&encryption=none#SL-ARM%20xtls-reality
+vless://e5b271a4-625d-41cb-b0d5-26f92d9fb35d@103.247.19.134:45644?security=reality&sni=addons.mozilla.org&fp=chrome&pbk=3rZGpqkE90xZElfPTKhvDij0IFJDwVm_ZjkUeN_-40w&type=tcp&encryption=none#LIGA-1T%20xtls-reality
+hy2://e5b271a4-625d-41cb-b0d5-26f92d9fb35d@103.247.19.134:45645?obfs=salamander&obfs-password=e5b271a4-625d-41cb-b0d5-26f92d9fb35d&insecure=1#LIGA-1T%20hysteria2
+tuic://e5b271a4-625d-41cb-b0d5-26f92d9fb35d:e5b271a4-625d-41cb-b0d5-26f92d9fb35d@103.247.19.134:45646?congestion_control=bbr&alpn=h3&udp_relay_mode=native&allow_insecure=1&disable_sni=1#LIGA-1T%20tuic
+
+
 
 port: 7890
 socks-port: 7891
@@ -30,9 +37,9 @@ proxies:
   - {name: SL-ARM|XCcX.love@xray.com, server: 152.70.244.133, port: 56332, type: vless, uuid: 460dd130-aae3-4325-e1df-5e445623b0e1, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA}, servername: addons.mozilla.org, client-fingerprint: chrome, network: tcp}
   - {name: cun|fD0Z.love@xray.com, server: 104.36.86.207, port: 58711, type: vless, uuid: c170e8af-9c19-4ec2-cccd-7fb926dbd151, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA}, servername: addons.mozilla.org, client-fingerprint: chrome, network: tcp}
   - {name: V.PS永久 hysteria2, type: hysteria2, server: 193.32.149.24, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: cd55f4bb-7afc-410c-a061-508e3933e8a7, obfs: salamander, obfs-password: cd55f4bb-7afc-410c-a061-508e3933e8a7, skip-cert-verify: true}
-  - {name: waphk hysteria2, type: hysteria2, server: 2400:8a20:112:1::369, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: df37f617-9b40-4e25-981d-f1ab114619cb, obfs: salamander, obfs-password: df37f617-9b40-4e25-981d-f1ab114619cb, skip-cert-verify: true}
+  - {name: waphk hysteria2, type: hysteria2, server: 156.251.183.164, port: 45645, up: "200 Mbps", down: "1000 Mbps", password: b8e5a63e-e311-4479-b810-37d5bf042b16, obfs: salamander, obfs-password: b8e5a63e-e311-4479-b810-37d5bf042b16, skip-cert-verify: true}
   - {name: crun hysteria2, type: hysteria2, server: 104.36.86.207, port: 50001, up: "200 Mbps", down: "1000 Mbps", password: a102fbd9-05a6-4d02-b0c2-bb0580c54b2f, obfs: salamander, obfs-password: a102fbd9-05a6-4d02-b0c2-bb0580c54b2f, skip-cert-verify: true}
-  - {name: 🇰🇷 首尔 hysteria2, type: hysteria2, server: 152.70.244.133, port: 44444, up: "200 Mbps", down: "1000 Mbps", password: 00673b5e-0c57-4f5f-ae7a-e01de89b762b, obfs: salamander, obfs-password: 00673b5e-0c57-4f5f-ae7a-e01de89b762b, skip-cert-verify: true}
+  - {name: 🇰🇷 首尔 hysteria2, type: hysteria2, server: 152.70.244.133, port: 45645, up: "200 Mbps", down: "1000 Mbps", password: e5d22589-6624-46b0-9f94-30984ff8895b, obfs: salamander, obfs-password: e5d22589-6624-46b0-9f94-30984ff8895b, skip-cert-verify: true}
   - {name: "LIGA hysteria2", type: hysteria2, server: 103.247.19.134, port: 45644, up: "200 Mbps", down: "1000 Mbps", password: e16e01be-0c37-4ded-b823-b93b6a3eaec0, obfs: salamander, obfs-password: e16e01be-0c37-4ded-b823-b93b6a3eaec0, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
