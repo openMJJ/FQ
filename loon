@@ -14,7 +14,7 @@ resource-parser = https://gitlab.com/sub-store/Sub-Store/-/releases/permalink/la
 [Remote Proxy]
 openMjj = http://148.135.68.50:20088/sub/v2ray/b3Blbm1qag%3D%3D
 [Proxy Group]
-🚀 策略选择 = select,负载均衡,♻️ ALL,openMjj,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available.png
+🚀 策略选择 = select,负载均衡,♻️ ALL,http://148.135.68.50:20088/sub/v2ray/b3Blbm1qag%3D%3D,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available.png
 ♻️ ALL = url-test,openMjj,url = http://www.gstatic.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
 负载均衡 = load-balance,openMjj,url = http://www.gstatic.com/generate_204,interval = 60,max-timeout = 3000,algorithm = pcc,img-url = gamecontroller
 🤖️ OPENAI = select,openMjj,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Round_Robin.png
