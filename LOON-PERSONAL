@@ -1,54 +1,24 @@
 [General]
-doh-server = https://doh.pub/dns-query,https://dns.alidns.com/dns-query,https://1.12.12.12/dns-query,https://120.53.53.53/dns-query,https://223.5.5.5/dns-query,https://223.6.6.6/dns-query
-# IPv6 支持
 ipv6 = true
-# > 跳过某个域名或者IP段
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,passenger.t3go.cn,passenger.t3go.cn
 bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
 # DNS 服务器
 dns-server = system,119.29.29.29,223.5.5.5,223.6.6.6,8.8.8.8,8.8.4.4,1.1.1.1,1.0.0.1
-# Wi-Fi 访问
+
 # > 允许 Wi-Fi 网络下其它设备访问
 allow-udp-proxy = true
 allow-wifi-access = false
 wifi-access-http-port = 7222
 wifi-access-socks5-port = 7221
-# > 代理测速 URL
+
 proxy-test-url = http://www.gstatic.com/generate_204
-# > 测速超时 (s)
 test-timeout = 5
 interface-mode = auto
-# > 解决一些ip请求无法匹配域名类规则的问题。real-ip指定的域名将不返回fake ip响应，直接将dns请求发往目标dns服务器
-real-ip = msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
-# 解析器
 resource-parser = https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/dist/sub-store-parser.loon.min.js
-# ssid-trigger参数，用于指定SSID下流量模式切换，（default表示默认，cellular表示蜂窝，目前支持三种值：rule，direct，proxy） 
-# ssid-trigger="default":rule,"cellular":rule,"ASUS":direct,"TPLINK":proxy 
-
-[Host]
-*.taobao.com = server:223.5.5.5
-*.tmall.com = server:223.5.5.5
-*.jd.com = server:119.28.28.28
-*.qq.com = server:119.28.28.28
-*.tencent.com = server:119.28.28.28
-*.alicdn.com = server:223.5.5.5
-*.aliyun.com = server:223.5.5.5
-*.weixin.com = server:119.28.28.28
-*.163.com = server:119.29.29.29
-*.126.com = server:119.29.29.29
-*.126.net = server:119.29.29.29
-*.127.net = server:119.29.29.29
-*.netease.com = server:119.29.29.29
-*.mi.com = server:119.29.29.29
-*.xiaomi.com = server:119.29.29.29
-*.bilibili.com = server:119.29.29.29
-*testflight.apple.com = server:8.8.4.4
-mtalk.google.com = 108.177.125.188
-dl.google.com = server:119.29.29.29
-dl.l.google.com = server:119.29.29.29
-
 [Remote Proxy]
 openMjj = http://148.135.68.50:20088/sub/v2ray/b3Blbm1qag%3D%3D
+
+
 [Proxy Group]
 🚀 策略选择 = select,负载均衡,♻️ ALL,openMjj,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available.png
 ♻️ ALL = url-test,openMjj,url = http://www.gstatic.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
@@ -68,7 +38,7 @@ https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.li
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list, policy=🎯 全球直连, tag=中国域名, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list, policy=🎯 全球直连, tag=中国IP, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list, policy=🍿 国外媒体, tag=国外媒体, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list, policy🍔 国内媒体, tag=网易云音乐, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list, policy=🍔 国内媒体, tag=网易云音乐, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list, policy=📲 Telegram, tag=电报消息, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list, policy=🎯 全球直连, tag=UnBreak, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, policy=DIRECT, tag=本地网络, enabled=true
@@ -92,6 +62,3 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Lo
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.tf.plugin, policy=DIRECT, tag=Boxjs, enabled=true
 https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin, tag=订阅解析器, enabled=true
 
-[MITM]
-enable = false
-skip-server-cert-verify = true
