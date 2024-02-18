@@ -1,18 +1,23 @@
 [General]
-ipv6 = false
+ipv6 = true
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,passenger.t3go.cn,passenger.t3go.cn
 bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
-dns-server = system,119.29.29.29,114.114.114.114,223.5.5.5
-allow-udp-proxy = false
+# DNS 服务器
+dns-server = system,119.29.29.29,223.5.5.5,223.6.6.6,8.8.8.8,8.8.4.4,1.1.1.1,1.0.0.1
+
+# > 允许 Wi-Fi 网络下其它设备访问
+allow-udp-proxy = true
 allow-wifi-access = false
 wifi-access-http-port = 7222
 wifi-access-socks5-port = 7221
+
 proxy-test-url = http://www.gstatic.com/generate_204
-test-timeout = 2
+test-timeout = 5
 interface-mode = auto
-resource-parser = https://gitlab.com/sub-store/Sub-Store/-/releases/permalink/latest/downloads/sub-store-parser.loon.min.js
+resource-parser = https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/dist/sub-store-parser.loon.min.js
 [Remote Proxy]
 openMjj = http://148.135.68.50:20088/sub/v2ray/b3Blbm1qag%3D%3D
+
 [Proxy Group]
 🚀 策略选择 = select,负载均衡,♻️ ALL,openMjj,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Available.png
 ♻️ ALL = url-test,openMjj,url = http://www.gstatic.com/generate_204,interval = 600,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
@@ -26,17 +31,13 @@ openMjj = http://148.135.68.50:20088/sub/v2ray/b3Blbm1qag%3D%3D
 [Remote Filter]
 
 [Remote Rule]
-#https://whatshub.top/rule/AntiAD.list, policy=REJECT, enabled=true
 https://whatshub.top/rule/ai.list, policy=🤖️ OPENAI, enabled=true
-https://whatshub.top/rule/AppleProxy.list, policy=🚀 策略选择, enabled=true
 https://whatshub.top/rule/Telegram.list, policy=📲 Telegram, enabled=true
 https://whatshub.top/rule/WeChat.list, policy=DIRECT, enabled=true
 https://whatshub.top/rule/YouTube.list, policy=📹 YouTube, enabled=true
 https://whatshub.top/rule/YouTubeMusic.list, policy=📹 YouTube, enabled=true
 https://whatshub.top/rule/ChinaMedia.list, policy=🍔 国内媒体, enabled=true
 https://whatshub.top/rule/ProxyMedia.list, policy=🍿 国外媒体, enabled=true
-https://whatshub.top/rule/Twitch.list, policy=🚀 策略选择, enabled=true
-https://whatshub.top/rule/Douyu.list, policy=DIRECT, enabled=true
 https://whatshub.top/rule/Google.list, policy=🚀 策略选择, enabled=true
 https://whatshub.top/rule/Proxy.list, policy=🚀 策略选择, enabled=true
 https://whatshub.top/rule/ASN-CN.list, policy=DIRECT, enabled=true
