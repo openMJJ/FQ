@@ -73,11 +73,10 @@ https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list, po
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list, policy=🎯 全球直连, tag=UnBreak, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, policy=DIRECT, tag=本地网络, enabled=true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Rule/ChinaASN.list, policy=🎯 全球直连, tag=China ASN, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, policy=节点选择, tag=GFW代理, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, policy=🚀 策略选择, tag=GFW代理, enabled=true
 https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin, policy=DIRECT, tag=Sub-Store, enabled=true
 
 [Rule]
-GEOIP,CN,🎯 全球直连
 FINAL,🚀 策略选择
 
 [Plugin]
