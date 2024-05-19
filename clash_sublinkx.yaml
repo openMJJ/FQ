@@ -12,7 +12,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      -auto
+
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -26,13 +26,13 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      -auto
+
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      -auto
+
   - name: Ⓜ️ CHATGPT
     type: select
     proxies:
@@ -44,14 +44,14 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      -auto
+
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      -auto
+
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      -auto
+
       
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
