@@ -58,7 +58,7 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-      -auto
+
   - name: 🛑 全球拦截
     type: select
     proxies:
