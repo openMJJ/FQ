@@ -38,7 +38,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      -auto
+
   - name: 🍎 苹果服务
     type: select
     proxies:
