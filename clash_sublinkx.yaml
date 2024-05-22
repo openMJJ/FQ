@@ -70,7 +70,7 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🚀 节点选择
+      - 🔰 节点选择
   - name: 🍎 苹果服务
     type: select
     proxies:
