@@ -92,7 +92,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-[Rule]
+rules:
 DOMAIN-SUFFIX,local,🎯 全球直连
 IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
 IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
