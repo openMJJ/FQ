@@ -75,11 +75,6 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-  - name: 🍃 应用净化
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
       
   - name: 🐟 漏网之鱼
     type: select
