@@ -6,12 +6,10 @@
 
 ## 节点信息
 
-### 📍 节点 1
+### 📍 serv00-vmess
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
-<b>地址</b>: <span style="color: #3498db;">us1.example.com</span>
-<b>端口</b>: <span style="color: #e74c3c;">443</span>
-<b>加密方式</b>: <span style="color: #2ecc71;">AES-256-CFB</span>
-<b>密码</b>: <span style="color: #9b59b6;">password123</span>
+<b>地址</b>: <span style="color: #3498db;">vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInNlcnYwMDA0IiwNCiAgImFkZCI6ICIxMjguMjA0LjIyMy45NCIsDQogICJwb3J0IjogIjM5MDAxIiwNCiAgImlkIjogIjdlMjgwNDQzLTU3MDctZDI5ZC04ODQxLTM3ODFmY2UyM2RkYiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9</span>
+
 </pre>
 
 ### 📍 节点 2
