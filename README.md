@@ -8,24 +8,22 @@
 
 ### 📍 serv00-vmess
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInNlcnYwMDA0IiwNCiAgImFkZCI6ICIxMjguMjA0LjIyMy45NCIsDQogICJwb3J0IjogIjM5MDAxIiwNCiAgImlkIjogIjdlMjgwNDQzLTU3MDctZDI5ZC04ODQxLTM3ODFmY2UyM2RkYiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9</span>
-
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInNlcnYwMDA0IiwNCiAgImFkZCI6ICIxMjguMjA0LjIyMy45NCIsDQogICJwb3J0IjogIjM5MDAxIiwNCiAgImlkIjogIjdlMjgwNDQzLTU3MDctZDI5ZC04ODQxLTM3ODFmY2UyM2RkYiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9
 </pre>
 
 ### 📍 阿姆斯特丹
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkZPUumYv+WnhuaWr+eJueS4uSIsDQogICJhZGQiOiAiNDUuMTI5LjEzLjIxNCIsDQogICJwb3J0IjogIjgwNDQiLA0KICAiaWQiOiAiYzU1NWRiMTMtYTZiYy00ZWMwLThhNzEtOGQxYzEzZGIzZDM3IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJkb3dubG9hZC53aW5kb3dzdXBkYXRlLmNvbSIsDQogICJwYXRoIjogIi9kb3dubG9hZCIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=</span>
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkZPUumYv+WnhuaWr+eJueS4uSIsDQogICJhZGQiOiAiNDUuMTI5LjEzLjIxNCIsDQogICJwb3J0IjogIjgwNDQiLA0KICAiaWQiOiAiYzU1NWRiMTMtYTZiYy00ZWMwLThhNzEtOGQxYzEzZGIzZDM3IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJkb3dubG9hZC53aW5kb3dzdXBkYXRlLmNvbSIsDQogICJwYXRoIjogIi9kb3dubG9hZCIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
 </pre>
 
 ### 📍 DC02
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
-hysteria2://e5041607@148.135.68.50:25753/?insecure=1&sni=www.bing.com#RN-11BO-H</span>
+hysteria2://e5041607@148.135.68.50:25753/?insecure=1&sni=www.bing.com#RN-11BO-H
 </pre>
 
 ## 使用说明
 
 自行导入
-
 
 ## 免责声明
 
