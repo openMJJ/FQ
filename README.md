@@ -12,28 +12,20 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInNlcnYwMDA0IiwNCiAgImFkZCI6ICIxMjguMjA0
 
 </pre>
 
-### 📍 节点 2
+### 📍 阿姆斯特丹
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
-<b>地址</b>: <span style="color: #3498db;">jp1.example.com</span>
-<b>端口</b>: <span style="color: #e74c3c;">443</span>
-<b>加密方式</b>: <span style="color: #2ecc71;">AES-256-CFB</span>
-<b>密码</b>: <span style="color: #9b59b6;">password456</span>
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkZPUumYv+WnhuaWr+eJueS4uSIsDQogICJhZGQiOiAiNDUuMTI5LjEzLjIxNCIsDQogICJwb3J0IjogIjgwNDQiLA0KICAiaWQiOiAiYzU1NWRiMTMtYTZiYy00ZWMwLThhNzEtOGQxYzEzZGIzZDM3IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJkb3dubG9hZC53aW5kb3dzdXBkYXRlLmNvbSIsDQogICJwYXRoIjogIi9kb3dubG9hZCIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=</span>
 </pre>
 
-### 📍 节点 3
+### 📍 DC02
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
-<b>地址</b>: <span style="color: #3498db;">hk1.example.com</span>
-<b>端口</b>: <span style="color: #e74c3c;">443</span>
-<b>加密方式</b>: <span style="color: #2ecc71;">AES-256-CFB</span>
-<b>密码</b>: <span style="color: #9b59b6;">password789</span>
+hysteria2://e5041607@148.135.68.50:25753/?insecure=1&sni=www.bing.com#RN-11BO-H</span>
 </pre>
 
 ## 使用说明
 
-1. 下载并安装 [Shadowsocks](https://shadowsocks.org/) 客户端。
-2. 打开客户端，点击“添加服务器”。
-3. 输入上面的节点信息并保存。
-4. 选择你要使用的节点，点击“连接”。
+自行导入
+
 
 ## 免责声明
 
@@ -41,6 +33,5 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInNlcnYwMDA0IiwNCiAgImFkZCI6ICIxMjguMjA0
 
 ---
 
-如果你发现节点信息失效，欢迎提交Issue或Pull Request。感谢你的支持！
 
 ![Thank you](https://raw.githubusercontent.com/username/repo/branch/path/to/thankyou-image.png)
