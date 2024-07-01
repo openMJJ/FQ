@@ -10,6 +10,10 @@
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInNlcnYwMDA0IiwNCiAgImFkZCI6ICIxMjguMjA0LjIyMy45NCIsDQogICJwb3J0IjogIjM5MDAxIiwNCiAgImlkIjogIjdlMjgwNDQzLTU3MDctZDI5ZC04ODQxLTM3ODFmY2UyM2RkYiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9
 </pre>
+### ✈️ serv00-H2Y-无限
+<pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
+hysteria2://f75efdc0-9ee2-449e-94ef-7fe9831dace1@s0.serv00.com:9044/?sni=qq56607.serv00.net#🇵🇱PL-hy2-k0baya-serv00
+</pre>
 
 ### ✈️ 阿姆斯特丹-2T
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
