@@ -9,6 +9,9 @@
 ### ✈️ serv00-vmess-无限
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInNlcnYwMDA0IiwNCiAgImFkZCI6ICIxMjguMjA0LjIyMy45NCIsDQogICJwb3J0IjogIjM5MDAxIiwNCiAgImlkIjogIjdlMjgwNDQzLTU3MDctZDI5ZC04ODQxLTM3ODFmY2UyM2RkYiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9
+hysteria2://9a8285e09a2de00f@128.204.223.100:8044?insecure=1&sni=bing.com
+vless://9298c502-077e-4d03-bf5a-8f0588bf1a19@128.204.223.100:9044?encryption=none&flow=xtls-rprx-vision&security=reality&sni=itunes.apple.com&fp=chrome&pbk=PIKblNiKrhHXmr1as7T8Td8I3NoRYKeZ9f51bNj_cTQ&sid=d8eb305b4baa7ec9&type=tcp&headerType=none#serv502-Reality
+
 </pre>
 ### ✈️ serv00-H2Y-无限
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
