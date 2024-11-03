@@ -37,6 +37,11 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+  - name: 💻 奈飞视频
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
 
   - name: 📲 电报信息
     type: select
@@ -1055,21 +1060,21 @@ rules:
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
-  - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
-  - DOMAIN,netflix.com.edgesuite.net,🌍 国外媒体
+  - DOMAIN-KEYWORD,netflixdnstest,💻 奈飞视频
+  - DOMAIN,netflix.com.edgesuite.net,💻 奈飞视频
   - DOMAIN-SUFFIX,fast.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflix.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest0.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest1.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest2.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest3.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest4.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest5.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest6.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest7.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest8.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest9.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflix.com,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflix.net,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflixdnstest0.com,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflixdnstest1.com,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflixdnstest2.com,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflixdnstest3.com,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflixdnstest4.com,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflixdnstest5.com,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflixdnstest6.com,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflixdnstest7.com,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflixdnstest8.com,💻 奈飞视频
+  - DOMAIN-SUFFIX,netflixdnstest9.com,💻 奈飞视频
   - DOMAIN-SUFFIX,nflxext.com,🌍 国外媒体
   - DOMAIN-SUFFIX,nflximg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,nflximg.net,🌍 国外媒体
