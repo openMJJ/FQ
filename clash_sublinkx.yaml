@@ -38,6 +38,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
   - name: 💻 奈飞视频
+    type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
