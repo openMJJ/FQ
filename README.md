@@ -14,6 +14,11 @@ hysteria2://g2vQnMer6eWWbSxHzKU1slFTcVk@rn2308.404444.xyz:64444/?sni=rn2308.4044
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
 hysteria2://sWQ0qXeF2G4kRvT8TWPzJvRbAcI@naranja.404444.xyz:64444/?sni=naranja.404444.xyz#荷兰-H
 </pre>
+### ✈️ 首尔-无限-解锁
+<pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
+trojan://9bfcfd09-4776-4b7c-9302-22a5e3542ab6@146.56.140.152:29074?security=tls&allowInsecure=1&type=tcp&headerType=none#ALICE%20trojan-首尔
+</pre>
+
 
 ### ✈️ serv00-vmess-无限
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
