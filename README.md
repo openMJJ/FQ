@@ -16,7 +16,7 @@ hysteria2://sWQ0qXeF2G4kRvT8TWPzJvRbAcI@naranja.404444.xyz:64444/?sni=naranja.40
 </pre>
 ### ✈️ 首尔-无限-解锁
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
-trojan://9bfcfd09-4776-4b7c-9302-22a5e3542ab6@146.56.140.152:29074?security=tls&allowInsecure=1&type=tcp&headerType=none#ALICE%20trojan-首尔
+vless://df005722-2de3-4273-ba10-97f990059b0c@146.56.140.152:54633?encryption=none&security=reality&sni=yahoo.com&fp=random&pbk=tXNYpBtdVkYo2RQyaGVtbCWi5CgUHWsmxZcn-20jhRY&sid=75&spx=%2F&type=tcp&headerType=none#ALICE-R-%E9%A6%96%E5%B0%94
 </pre>
 
 
