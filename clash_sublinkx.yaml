@@ -37,6 +37,14 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+
+  - name: 🎵 TikTok
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+
   - name: 💻 奈飞视频
     type: select
     proxies:
@@ -90,6 +98,33 @@ proxy-groups:
       - ♻️ 自动选择
 
 rules:
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com,🎵 TikTok
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com,🎵 TikTok
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎵 TikTok
+  - DOMAIN-SUFFIX,bytedapm.com,🎵 TikTok
+  - DOMAIN-SUFFIX,bytegecko-i18n.com,🎵 TikTok
+  - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
+  - DOMAIN-SUFFIX,capcut.com,🎵 TikTok
+  - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
+  - DOMAIN-SUFFIX,ibyteimg.com,🎵 TikTok
+  - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
+  - DOMAIN-SUFFIX,isnssdk.com,🎵 TikTok
+  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
+  - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+  - DOMAIN-SUFFIX,sgpstatp.com,🎵 TikTok
+  - DOMAIN-SUFFIX,snssdk.com,🎵 TikTok
+  - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn-us.com,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktokd.net,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktokd.org,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktokmusic.app,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
+  - DOMAIN-SUFFIX,tiktokv.us,🎵 TikTok
+  - DOMAIN-SUFFIX,ttwebview.com,🎵 TikTok
+  - DOMAIN-KEYWORD,musical.ly,🎵 TikTok
+  - DOMAIN-KEYWORD,tiktok,🎵 TikTok
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
