@@ -6,10 +6,6 @@
 
 ## 节点信息
 
-### ✈️ DC02-12T-解锁
-<pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
-hysteria2://g2vQnMer6eWWbSxHzKU1slFTcVk@rn2308.404444.xyz:64444/?sni=rn2308.404444.xyz#RN2308-H
-</pre>
 ### ✈️ 荷兰-8T-解锁
 <pre style="background: #f0f0f0; padding: 10px; border-radius: 5px;">
 hysteria2://sWQ0qXeF2G4kRvT8TWPzJvRbAcI@naranja.404444.xyz:64444/?sni=naranja.404444.xyz#荷兰-H
