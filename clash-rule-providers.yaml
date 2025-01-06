@@ -133,6 +133,10 @@ rules:
   - RULE-SET,Twitter,🌏 全球加速
   - RULE-SET,Game,🎮 游戏平台
   - RULE-SET,ProxyLite,🌏 全球加速
+  - DOMAIN-SUFFIX,codelife.cc,🐟 兜底分流
+  - DOMAIN-SUFFIX,wps.cn,🐟 兜底分流
+  - DOMAIN-SUFFIX,1314.cool,🐟 兜底分流
+  - DOMAIN-SUFFIX,staticfile.org,🐟 兜底分流
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
   - RULE-SET,Download,DIRECT
