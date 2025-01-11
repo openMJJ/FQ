@@ -83,6 +83,7 @@ proxy-groups:
   - {name: 🍎 苹果服务, <<: *a3}
   - {name: 🤖 OpenAi, <<: *a3}
   - {name: 📺 Youtube, <<: *a3}
+  - {name: 🎵 TikTok, <<: *a3}
   - {name: 🎬 国际媒体, <<: *a3}
   - {name: 🌌 Netflix, <<: *a3}
   - {name: 📟 电报消息, <<: *a3}
@@ -97,11 +98,11 @@ proxy-groups:
 # 分流规则 
 rule-providers:
   Ad:          {<<: *a5, url: https://ghp.ci/https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt,                      path: ./ruleset/anti-ad-clash.yaml}
-  youtube:     {<<: *a5, url: https://raw.githubusercontent.com/snapei/clash-pro-rules/release/youtube.txt,                                       path: ./ruleset/youtube.yaml      }
-  tiktok:      {<<: *a5, url: https://cdn.jsdelivr.net/gh/snapei/clash-pro-rules@release/tiktok.txt,                                               	path: ./ruleset/tiktok.yaml     }
+  youtube:     {<<: *a5, url: https://raw.githubusercontent.com/snapei/clash-pro-rules/release/youtube.txt,                                    path: ./ruleset/youtube.yaml      }
+  tiktok:     {<<: *a5, url: https://cdn.jsdelivr.net/gh/snapei/clash-pro-rules@release/tiktok.txt,                                                      	path: ./ruleset/tiktok.yaml     }
   OpenAi:      {<<: *a6, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml,                      path: ./ruleset/OpenAi.yaml       }
   BiliBili:    {<<: *a6, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml,                  path: ./ruleset/BiliBili.yaml     }
-  netflix:     {<<: *a5, url: https://raw.githubusercontent.com/snapei/clash-pro-rules/release/netflix.txt,                                        path: ./ruleset/netflix.yaml     }
+  netflix:     {<<: *a5, url: https://raw.githubusercontent.com/snapei/clash-pro-rules/release/netflix.txt,                                      path: ./ruleset/netflix.yaml     }
   Bahamut:     {<<: *a6, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml,                    path: ./ruleset/Bahamut.yaml      } 
   GlobalMedia: {<<: *a6, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml,  path: ./ruleset/GlobalMedia.yaml  }
   Apple:       {<<: *a6, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Classical.yaml,              path: ./ruleset/Apple.yaml        }
@@ -123,6 +124,7 @@ rules:
   - RULE-SET,Ad,🆎 AdBlock
   - RULE-SET,OpenAi,🤖 OpenAi
   - RULE-SET,youtube,📺 Youtube
+  - RULE-SET,tiktok,🎵 TikTok
   - RULE-SET,netflix, 🌌 Netflix
   - RULE-SET,GlobalMedia,🎬 国际媒体
   - RULE-SET,Apple,🍎 苹果服务
@@ -143,6 +145,7 @@ rules:
   - RULE-SET,ChinaIP,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,🐟 兜底分流
+
 
 
 # TUN模式是通过在操作系统上安装一个虚拟网卡来实现的，它可以接管所有的网络流量，并将流量转发至Clash，然后由Clash发出请求
